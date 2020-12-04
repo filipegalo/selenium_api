@@ -3,7 +3,7 @@ services:
   selenium:
     container_name: selenium_api
     build:
-      context: ./selenium
+      context: .
       dockerfile: Dockerfile
     volumes:
       - /dev/shm:/dev/shm
